@@ -1,0 +1,22 @@
+{
+  "name": "financialbot",
+  "version": "1.0.0",
+  "description": "Financial bot to proccess stock command from the Chat",
+  "main": "app.js",
+  "scripts": {
+    "start": "pm2 start ./app",
+    "test": "node ./app"
+  },
+  "keywords": [
+    "Bot",
+    "Mosca",
+    "MQQT",
+    "Broker"
+  ],
+  "author": "Jhon E. Villarreal P.",
+  "license": "ISC",
+  "dependencies": {
+    "mosca": "^2.8.3",
+    "log": "^1.4.0"
+  }
+}
