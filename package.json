@@ -6,7 +6,8 @@
   "scripts": {
     "start": "pm2 start financialmqttbroker.js",
     "stop": "pm2 stop financialmqttbroker.js",
-    "restart": "pm2 restart financialmqttbroker.js"
+    "restart": "pm2 restart financialmqttbroker.js",
+    "test": "mocha ./test/financialmqttbrokerTest.js --exit"
   },
   "keywords": [
     "Bot",
