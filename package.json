@@ -4,8 +4,9 @@
   "description": "Financial bot to proccess stock command from the Chat",
   "main": "app.js",
   "scripts": {
-    "start": "pm2 start ./app",
-    "test": "node ./app"
+    "start": "pm2 start financialmqttbroker.js",
+    "stop": "pm2 stop financialmqttbroker.js",
+    "restart": "pm2 restart financialmqttbroker.js"
   },
   "keywords": [
     "Bot",
